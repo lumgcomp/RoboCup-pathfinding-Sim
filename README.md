@@ -1,1 +1,8 @@
 # RoboCup-pathfinding-Sim
+Download and unzip the project, it is titled 30011494-Diss-sim. Once unzipped open up pycharm, click file at the top right of the window, select open and then select the unzipped project folder.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+When the project is open install python 3.11.0, then click on file, then click settings, select the project in settings and then python interpreter and click add interpreter, then select python 3.11 and hit 
+Once the interpreter has bee changed, you can now add the required packages [Pygame + numpy] by pressing the plus sign, some packages are optional or there by default, but the pygame and numpy libraries must be added for this programme to function.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+When you run the code, use the arrow keys to navigate the algorithm menu seen in the top right corner of the window, to select the algorithm you wish to test in the simulation, then hit move to ball to start the simulation, the reset buttons moves the player and ball back to their original position, allowing you to compare the algorithms speed on the same path, the restart button will restart the game setting new spawns for the player, ball and defenders.
+The intended use of this programme is to display how different algorithms approach pathfinding by displaying a visual display of the solution, and to be used to compare the performance of different algorithms using pathfinding based on a graph.
