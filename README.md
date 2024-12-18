@@ -8,7 +8,7 @@ The following algorithms are implemented:
 
 - Dijkstra's Algorithm: A classic algorithm that finds the shortest path from a source to all other nodes in a graph, prioritizing nodes based on accumulated cost without using heuristics.
 
-- -Depth-First Search (DFS): An uninformed search algorithm that explores as far as possible along a branch before backtracking. While not guaranteed to find the shortest path, it demonstrates how a brute-force approach can work in pathfinding.
+- Depth-First Search (DFS): An uninformed search algorithm that explores as far as possible along a branch before backtracking. While not guaranteed to find the shortest path, it demonstrates how a brute-force approach can work in pathfinding.
 
 - Breadth-First Search (BFS): An uninformed search algorithm that explores all neighbors at the current depth before moving deeper. It guarantees the shortest path in an unweighted graph.
 
