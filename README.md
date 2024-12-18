@@ -2,6 +2,17 @@
 
 This project demonstrates pathfinding algorithms in a RoboCup-inspired simulation environment. It allows users to visualize and compare the performance of different algorithms in navigating a player towards a ball while avoiding obstacles.
 
+The following algorithms are implemented:
+
+- A*: A heuristic-based search algorithm that finds the shortest path efficiently by combining the advantages of Dijkstra's algorithm and Greedy Best-First Search. It uses a cost function to prioritize nodes based on distance from the start and estimated distance to the goal.
+
+- Dijkstra's Algorithm: A classic algorithm that finds the shortest path from a source to all other nodes in a graph, prioritizing nodes based on accumulated cost without using heuristics.
+
+- -Depth-First Search (DFS): An uninformed search algorithm that explores as far as possible along a branch before backtracking. While not guaranteed to find the shortest path, it demonstrates how a brute-force approach can work in pathfinding.
+
+- Breadth-First Search (BFS): An uninformed search algorithm that explores all neighbors at the current depth before moving deeper. It guarantees the shortest path in an unweighted graph.
+
+- Ant Colony Optimization (ACO): A probabilistic optimization algorithm inspired by the behavior of ants finding paths to food. It uses pheromone trails to iteratively improve solutions to the pathfinding problem.
 ---
 
 ## Getting Started
